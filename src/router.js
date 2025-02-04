@@ -9,8 +9,8 @@ export default (
   <BrowserRouter>
     <Layout>
       <Switch>
-        <Route exact path="/_browse" component={ Main } />
-        <Route exact path="/_browse/package/:name" component={ Package } />
+        <Route exact path="/_browse" component={Main} />
+        <Route exact path="/_browse/package/:name" component={Package} />
       </Switch>
     </Layout>
   </BrowserRouter>
